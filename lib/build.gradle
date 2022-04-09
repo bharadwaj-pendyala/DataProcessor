@@ -25,6 +25,9 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:30.1.1-jre'
+
+    //Apache POI Dependency
+    implementation 'org.apache.poi:poi:5.2.2'
 }
 
 tasks.named('test') {
